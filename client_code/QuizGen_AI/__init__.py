@@ -1,7 +1,7 @@
-from ._anvil_designer import Form1Template
+from ._anvil_designer import QuizGen_AITemplate
 from anvil import *
 
 
-class Form1(Form1Template):
+class QuizGen_AI(QuizGen_AITemplate):
   def __init__(self, **properties):
     super().__init__(**properties)
